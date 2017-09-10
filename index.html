@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script src="soundplay.js"></script>
+<link rel="stylesheet" type="text/css" href="button.css">
+<meta charset="UTF-8" />
+<title>音が鳴るボタン</title>
+</head>
+<body>
+<header><h1>音が鳴るボタン</h1></header>
+<nav><ul><li><a href="./">Home</a></li></ul></nav>
+<article>
+
+<!-- テキストボタンの場合 -->
+<p><a href="#" class="square_btn" onClick="sound()">ボタン1</a></p>
+
+<!-- 音声ファイルの読み込み 9〜10行目にURLを指定 -->
+<audio id="sound-file" preload="auto">
+	<source src="music/button1/1.mp3" type="audio/mp3">
+</audio>
+
+
+</article>
+<footer><a href="./">音が鳴るボタン</a></footer>
+</body>
+</html>
