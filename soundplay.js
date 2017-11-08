@@ -1,6 +1,5 @@
 function sound(element)
 {
-
 	//ファイルのフルパスを取得
 	var myPath = location.pathname;
 	//フォルダパスを取得
